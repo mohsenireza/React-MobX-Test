@@ -27,5 +27,5 @@ const Invoice = types.model('Invoice', {
     }));
 
 export const invoiceStore = Invoice.create({
-    currency: 'BTC'
+    currency: 'Currency'
 });
